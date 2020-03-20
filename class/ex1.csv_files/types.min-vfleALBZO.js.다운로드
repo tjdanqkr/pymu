@@ -1,0 +1,2 @@
+define(["require","exports"],(function(i,t){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),(function(i){i.ShowChecklistHintTooltip="ChecklistSidebar/ShowChecklistHintTooltip",i.HideChecklistHintTooltip="ChecklistSidebar/HideChecklistHintTooltip",i.SuppressAutomaticChecklistHintTooltip="ChecklistSidebar/SuppressAutomaticChecklistHintTooltip",i.UnsuppressAutomaticChecklistHintTooltip="ChecklistSidebar/UnsuppressAutomaticChecklistHintTooltip"})(t.Actions||(t.Actions={}))}));
+//# sourceMappingURL=types.min.js-vflMv_mCf.map

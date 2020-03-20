@@ -1,0 +1,2 @@
+define(["require","exports","tslib","modules/clean/redux/store","modules/clean/redux/namespaces","modules/clean/react/growth/onboarding_sidebar/components/sidebars/checklist_sidebar/data/reducer","external/lodash"],(function(e,r,t,s,d,o,a){"use strict";Object.defineProperty(r,"__esModule",{value:!0}),a=t.__importStar(a),r.getStoreForChecklistSidebar=a.once((function(){var e;return s.getStoreAndRegisterReducers(((e={})[d.CHECKLIST_SIDEBAR_NAMESPACE_KEY]=o.checklistSidebarReducer,e))}))}));
+//# sourceMappingURL=store.min.js-vflPKU_1r.map

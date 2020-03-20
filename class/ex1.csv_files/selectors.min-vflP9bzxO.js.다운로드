@@ -1,0 +1,2 @@
+define(["require","exports","modules/clean/redux/namespaces","modules/clean/redux/selectors"],(function(e,t,i,o){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var l=function(e){return o.getStateAtNamespace(e,i.CHECKLIST_SIDEBAR_NAMESPACE_KEY)};t.getIsChecklistHintTooltipVisible=function(e){return l(e).isHintTooltipVisible},t.getShouldChecklistHintTooltipDisplayAutomatically=function(e){return l(e).showHintTooltipAutomatically}}));
+//# sourceMappingURL=selectors.min.js-vflemwBZB.map

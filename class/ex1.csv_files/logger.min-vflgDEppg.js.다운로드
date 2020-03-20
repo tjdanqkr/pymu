@@ -1,0 +1,2 @@
+define(["require","exports","modules/clean/react/growth/logging_util"],(function(e,t,o){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.logButtonClick=function(e,t,n){o.logCtaClick(e,o.ComponentName.ONBOARDING_SIDEBAR,o.CtaType.CONTINUE,{task:t},n)}}));
+//# sourceMappingURL=logger.min.js-vflLVw5in.map

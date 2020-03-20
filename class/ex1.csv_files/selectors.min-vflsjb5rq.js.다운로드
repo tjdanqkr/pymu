@@ -1,0 +1,2 @@
+define(["require","exports","modules/clean/redux/namespaces","modules/clean/redux/selectors"],(function(e,n,r,i){"use strict";Object.defineProperty(n,"__esModule",{value:!0});var d=function(e){return i.getStateAtNamespace(e,r.ONBOARDING_SIDEBAR_NAMESPACE_KEY)};n.getIsOnboardingSidebarOpen=function(e){return d(e).isOnboardingSidebarOpen},n.getIsOnboardingSidebarHidden=function(e){return d(e).isOnboardingSidebarHidden}}));
+//# sourceMappingURL=selectors.min.js-vflLKDpLj.map

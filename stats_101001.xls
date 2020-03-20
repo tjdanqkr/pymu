@@ -1,0 +1,111 @@
+
+
+
+
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    </head>
+
+
+	
+	<br>
+	<table border=1>
+		<caption>남녀별 인구 [단위 : 천명, 여자 1백명당 남자 수]</caption>
+			<thead>
+			<tr>
+			<th colspan="1" rowspan="1">&nbsp;</th>
+			<th data-id='t101001_h_0' data-index='0' data-name='td_101001_cc_0' class="tc" data-headers='td_101001_cc_0'  rowspan='1'>1970</th>
+<th data-id='t101001_h_1' data-index='1' data-name='td_101001_cc_1' class="tc" data-headers='td_101001_cc_1'  rowspan='1'>1980</th>
+<th data-id='t101001_h_2' data-index='2' data-name='td_101001_cc_2' class="tc" data-headers='td_101001_cc_2'  rowspan='1'>1990</th>
+<th data-id='t101001_h_3' data-index='3' data-name='td_101001_cc_3' class="tc" data-headers='td_101001_cc_3'  rowspan='1'>2000</th>
+<th data-id='t101001_h_4' data-index='4' data-name='td_101001_cc_4' class="tc" data-headers='td_101001_cc_4'  rowspan='1'>2010</th>
+<th data-id='t101001_h_5' data-index='5' data-name='td_101001_cc_5' class="tc" data-headers='td_101001_cc_5'  rowspan='1'>2017</th>
+<th data-id='t101001_h_6' data-index='6' data-name='td_101001_cc_6' class="tc" data-headers='td_101001_cc_6'  rowspan='1'>2020</th>
+<th data-id='t101001_h_7' data-index='7' data-name='td_101001_cc_7' class="tc" data-headers='td_101001_cc_7'  rowspan='1'>2030</th>
+<th data-id='t101001_h_8' data-index='8' data-name='td_101001_cc_8' class="tc" data-headers='td_101001_cc_8'  rowspan='1'>2040</th>
+<th data-id='t101001_h_9' data-index='9' data-name='td_101001_cc_9' class="tc" data-headers='td_101001_cc_9'  rowspan='1'>2050</th>
+<th data-id='t101001_h_10' data-index='10' data-name='td_101001_cc_10' class="tc" data-headers='td_101001_cc_10'  rowspan='1'>2060</th>
+</tr>
+			</thead>
+			<tbody>
+	
+				<tr>
+				
+				<th class="tl" data-id='t101001_c1_0' colspan='1' rowspan='1'>총인구</th>
+	<td headers='t101001_h_0 t101001_c1_0'>32,241</td>
+<td headers='t101001_h_1 t101001_c1_0'>38,124</td>
+<td headers='t101001_h_2 t101001_c1_0'>42,869</td>
+<td headers='t101001_h_3 t101001_c1_0'>47,008</td>
+<td headers='t101001_h_4 t101001_c1_0'>49,554</td>
+<td headers='t101001_h_5 t101001_c1_0'>51,362</td>
+<td headers='t101001_h_6 t101001_c1_0'>51,781</td>
+<td headers='t101001_h_7 t101001_c1_0'>51,927</td>
+<td headers='t101001_h_8 t101001_c1_0'>50,855</td>
+<td headers='t101001_h_9 t101001_c1_0'>47,745</td>
+<td headers='t101001_h_10 t101001_c1_0'>42,838</td>
+
+				</tr>
+	
+				<tr>
+				
+				
+<th class="tl" data-id='t101001_c1_1' colspan='1' rowspan='1'>남자</th>
+	<td headers='t101001_h_0 t101001_c1_1'>16,309</td>
+<td headers='t101001_h_1 t101001_c1_1'>19,236</td>
+<td headers='t101001_h_2 t101001_c1_1'>21,568</td>
+<td headers='t101001_h_3 t101001_c1_1'>23,667</td>
+<td headers='t101001_h_4 t101001_c1_1'>24,881</td>
+<td headers='t101001_h_5 t101001_c1_1'>25,737</td>
+<td headers='t101001_h_6 t101001_c1_1'>25,946</td>
+<td headers='t101001_h_7 t101001_c1_1'>25,943</td>
+<td headers='t101001_h_8 t101001_c1_1'>25,293</td>
+<td headers='t101001_h_9 t101001_c1_1'>23,639</td>
+<td headers='t101001_h_10 t101001_c1_1'>21,194</td>
+
+				</tr>
+	
+				<tr>
+				
+				
+<th class="tl" data-id='t101001_c1_2' colspan='1' rowspan='1'>여자</th>
+	<td headers='t101001_h_0 t101001_c1_2'>15,932</td>
+<td headers='t101001_h_1 t101001_c1_2'>18,888</td>
+<td headers='t101001_h_2 t101001_c1_2'>21,301</td>
+<td headers='t101001_h_3 t101001_c1_2'>23,341</td>
+<td headers='t101001_h_4 t101001_c1_2'>24,673</td>
+<td headers='t101001_h_5 t101001_c1_2'>25,625</td>
+<td headers='t101001_h_6 t101001_c1_2'>25,835</td>
+<td headers='t101001_h_7 t101001_c1_2'>25,984</td>
+<td headers='t101001_h_8 t101001_c1_2'>25,562</td>
+<td headers='t101001_h_9 t101001_c1_2'>24,105</td>
+<td headers='t101001_h_10 t101001_c1_2'>21,644</td>
+
+				</tr>
+	
+				<tr>
+				
+				
+<th class="tl" data-id='t101001_c1_3' colspan='1' rowspan='1'>성비</th>
+	<td headers='t101001_h_0 t101001_c1_3'>102.40</td>
+<td headers='t101001_h_1 t101001_c1_3'>101.80</td>
+<td headers='t101001_h_2 t101001_c1_3'>101.30</td>
+<td headers='t101001_h_3 t101001_c1_3'>101.40</td>
+<td headers='t101001_h_4 t101001_c1_3'>100.80</td>
+<td headers='t101001_h_5 t101001_c1_3'>100.40</td>
+<td headers='t101001_h_6 t101001_c1_3'>100.40</td>
+<td headers='t101001_h_7 t101001_c1_3'>99.80</td>
+<td headers='t101001_h_8 t101001_c1_3'>98.90</td>
+<td headers='t101001_h_9 t101001_c1_3'>98.10</td>
+<td headers='t101001_h_10 t101001_c1_3'>97.90</td>
+
+				</tr>
+			
+		</tbody>
+	</table>
+	<br>
+	
+	
+	
+	
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<!-- saved from url=(0431)https://uc7ac67c97365cc9d88a21f1c9b9.previews.dropboxusercontent.com/p/xls_html/AAvHPe8SK5yjMEOY_THnHkAiUJjD-ALCuMMKFE441v7RTi7DWXbPXZbtMyrlojq78xCXVn6ZA5t0UqaBF5zvTNRsRu1gRxU4oQF8aH8Gd6b2I1IdsScM7oRzImnByAby1bCqVOfHs2JGSfrpz3Iyxn-bnavqrnJCLb5wbJjvk9MxCVxWd-VvelG-qgLExeFUZRfjgw-sAW8DzTmc8R2kXHT4MNjTYbg2XwNyYJREsd8-1pZqNN27EjhyedLYLKWfM66xVwn3Y1PyVd2DuyoeFxJSuH7d7hf44ucLt46desiKHiogea8Tq_kkXp-ZHDc2o3HxfdzyrUWKxiyr0lFqRdOj/p.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="referrer" content="origin">
+         
+         <style>.style0{
+	text-align:general;
+	vertical-align:bottom;
+	white-space:nowrap;
+	;
+	;
+	;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	;
+	border:none;
+	;
+	;
+	;}
+td{
+	padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	;
+	;
+	text-align:general;
+	vertical-align:bottom;
+	border:none;
+	;
+	;
+	;
+	white-space:nowrap;
+	;border: 1px dotted lightgray}
+.aac{height:15.0pt;}
+.aad{height:15.0pt;width:48pt;}
+.aaa{border-collapse:
+ collapse;table-layout:fixed;width:240pt;}
+.aab{width:48pt;}
+
+    #tabstrip {
+        bottom: 0px;
+        position: fixed;
+        border-top: 1px solid #ccc;
+        width: 100%;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+    #tabstrip div { /* Contains the tabstrip links */
+        border-right: 1px solid #ccc;
+        padding: 3px 5px;
+        display: inline-block;
+    }
+    #tabstrip a {
+        text-decoration: none;
+        font-size: 14px;
+        font-family: "Open Sans","lucida grande","Segoe UI",arial,verdana,"lucida sans unicode",tahoma,sans-serif;
+        /* Before a sheet is loaded, its tab is inactive */
+        cursor: default;
+        color: #ccc;
+    }
+    #tabstrip a.loaded {
+        cursor: auto;
+        color: #2895f1;
+    }
+    /* This should appear after the "loaded" style for precedence */
+    #tabstrip a.current {
+        cursor: default;
+        color: #000;
+    }
+    #wrapper {
+        overflow: auto;
+        width: 100%;
+        left: 0px;
+        top: 0px;
+        position: relative;
+    }
+    .sheet-content {
+        margin: 5px;
+        background-color: white;
+    }
+    body {
+        margin: 0px;
+    }
+</style><script type="text/javascript">
+    (function(globals) {
+        globals.loaded_sheets = {};
+    }(this));
+
+    function _show_sheet(sheet_id) {
+        var sheets = document.getElementsByClassName("sheet-content");
+        for (var i = 0; i < sheets.length; i++) {
+            sheets[i].style.display = sheet_id == sheets[i].id ? "inline-block" : "none";
+        }
+        var tab_links = document.getElementsByClassName("tabstrip-link");
+        for (var i = 0; i < tab_links.length; i++) {
+            // Remove the "current" class from all tabs and add it to the one that was clicked.
+            tab_links[i].className = tab_links[i].className.replace(/\bcurrent\b/, "");
+            if (tab_links[i].getAttribute('sheet_id') == sheet_id) {
+                tab_links[i].className += " current";
+            }
+        }
+    }
+
+    function on_tab_click(sheet_id) {
+        if (sheet_id in loaded_sheets) {
+            _show_sheet(sheet_id);
+            document.getElementById('wrapper').scrollTop = 0;
+        }
+    }
+
+    function activate_tab(tabstrip_link_id) {
+        var link = document.getElementById(tabstrip_link_id);
+        link.className += " loaded";
+        var sheet_id = link.getAttribute('sheet_id');
+        loaded_sheets[sheet_id] = true;
+    }
+
+    function goto_cell(sheet_id, ele_name) {
+        if (sheet_id in loaded_sheets) {
+            _show_sheet(sheet_id);
+            document.getElementsByName(ele_name)[0].scrollIntoView();
+        }
+    }
+
+    function resize() {
+        var w_height = window.innerHeight;
+        var t_height = document.getElementById('tabstrip').offsetHeight;
+        document.getElementById('wrapper').style.height = (w_height - t_height) + "px";
+    }
+
+    window.onresize = resize;
+</script></head><body style=""><div id="close-x"><div id="close-x-icon"></div></div><style>table.shownone .hidden{opacity:0; width:0px;} table.showall .hidden{width:80px;} td.highlight, th.highlight{border: 3px solid #2895f1;}td input, th input {border:0px, background-color:rgba(0,0,0,0);width:100%;}</style><div id="tabstrip"><div>
+              <a sheet_id="sheet001" id="tabstrip-link-0" href="https://uc7ac67c97365cc9d88a21f1c9b9.previews.dropboxusercontent.com/p/xls_html/AAvHPe8SK5yjMEOY_THnHkAiUJjD-ALCuMMKFE441v7RTi7DWXbPXZbtMyrlojq78xCXVn6ZA5t0UqaBF5zvTNRsRu1gRxU4oQF8aH8Gd6b2I1IdsScM7oRzImnByAby1bCqVOfHs2JGSfrpz3Iyxn-bnavqrnJCLb5wbJjvk9MxCVxWd-VvelG-qgLExeFUZRfjgw-sAW8DzTmc8R2kXHT4MNjTYbg2XwNyYJREsd8-1pZqNN27EjhyedLYLKWfM66xVwn3Y1PyVd2DuyoeFxJSuH7d7hf44ucLt46desiKHiogea8Tq_kkXp-ZHDc2o3HxfdzyrUWKxiyr0lFqRdOj/p.html#" onclick="on_tab_click(&#39;sheet001&#39;); return false;" class="tabstrip-link current loaded">8f23306f72ab92b622b6eb987fd445f</a>
+            </div></div><div id="wrapper" style="height: 477px; display: block;"><script>resize();</script><div id="sheet001" class="sheet-content" style="display: inline-block;"><table border="0" cellpadding="0" cellspacing="0" width="320" class="aaa shownone"><colgroup><col width="64" span="5" class="aab"></colgroup><tbody><tr height="20" class="aac"><td height="20" class="aad" style="position: relative;">a<div style="background: rgba(128, 128, 128, 0.5); color: black; pointer-events: none; font-size: small; display: block; position: absolute; top: 2%; right: 2%;">A1</div></td><td class="aab" style="position: relative;">b</td><td class="aab">c</td><td class="aab">d</td><td class="aab">message</td></tr><tr height="20" class="aac"><td height="20" align="right" class="aac">1</td><td align="right" style="position: relative;">2</td><td align="right">3</td><td align="right">4</td><td>hello</td></tr><tr height="20" class="aac"><td height="20" align="right" class="aac">5</td><td align="right" style="position: relative;">6</td><td align="right">7</td><td align="right">8</td><td>world</td></tr><tr height="20" class="aac"><td height="20" align="right" class="aac">9</td><td align="right">10</td><td align="right" style="position: relative;">11</td><td align="right">12</td><td>foo</td></tr></tbody></table></div><script>activate_tab('tabstrip-link-0')</script></div>
+<script>var reveal_hidden_label ='Reveal Hidden Columns';
+var collapse_hidden_label ='Collapse Hidden Columns';
+</script>
+<script src="./jquery-1.10.2.min.js.다운로드"></script>
+<script src="./frame_messenger_client.js.다운로드"></script>
+<script src="./preview_spreadsheet_rams.js.다운로드"></script>
+<script>var wrapper = document.getElementById("wrapper");
+wrapper.style.display="block";
+</script>
+<link rel="stylesheet" type="text/css" href="./preview_excel_readonly_rams.css"></body></html>
